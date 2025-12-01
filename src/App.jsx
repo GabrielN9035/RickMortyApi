@@ -20,8 +20,10 @@ function App(){
     <>
       <h1 className={s.title}>Ricky and Morty Characters</h1>
       <main>
+        <div style={{display:"flex", flexWrap:"wrap",alignItems:"center", justifyContent:"center"}}>
         <input type="text" value={searchPage} onChange={(e) => setSearchPage(e.target.value)} placeholder='1/42'/>
         <input type="text" value={searchName} onChange={(e) => setSearchName(e.target.value)} placeholder='Procure um personagem'/>
+        </div>
 
         <div className={s.wrapCards}>
           {data.map((item, index) => {
