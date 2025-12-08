@@ -1,11 +1,11 @@
 
-import { useState, useEffect } from 'react'
-import s from './App.module.css'
-import { api } from './api/api'
-import { Card } from './components/card'
-import { InfoModal } from './components/infoModal'
-import logo from '/logo.webp'
-import { Spinner } from './components/spinner.jsx'
+import { useState, useEffect } from 'react';
+import s from './App.module.css';
+import { api } from './api/api';
+import { Card } from './components/card';
+import { InfoModal } from './components/infoModal';
+import logo from '/logo.webp';
+import { Spinner } from './components/spinner.jsx';
 import ResponsivePagination from 'react-responsive-pagination';
 import 'react-responsive-pagination/themes/classic-light-dark.css';
 
